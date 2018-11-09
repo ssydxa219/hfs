@@ -8,9 +8,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jianbing.shares</groupId>
     <artifactId>hf-shares</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>Maven Quick Start Archetype</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>hf-share-utils</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
