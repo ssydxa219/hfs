@@ -19,6 +19,7 @@
     <modules>
         <module>hf-share-util-spiders</module>
         <module>hf-share-util-imports</module>
+        <module>hf-share-util-aaas</module>
     </modules>
 
     <distributionManagement>

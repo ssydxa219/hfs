@@ -2,52 +2,35 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hf-share-utils</artifactId>
+        <groupId>com.jianbing.share.util</groupId>
+        <version>1.0.1</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jianbing</groupId>
-    <artifactId>hfs</artifactId>
-    <version>1.0.1</version>
-    <modules>
-        <module>hf-shares</module>
-        <module>hf-libs</module>
-        <module>hf-bins</module>
-        <module>hf-projects</module>
-        <module>hf-docs</module>
-    </modules>
+    <groupId>com.jianbing.share.util.aaas</groupId>
+    <artifactId>hf-share-util-aaas</artifactId>
     <packaging>pom</packaging>
 
-    <name>hfs</name>
+    <name>hf-share-util-aaas</name>
     <!-- FIXME change it to the project's website -->
     <url>http://maven.apache.org/</url>
-    <inceptionYear>2018</inceptionYear>
+    <inceptionYear>2001</inceptionYear>
+    <modules>
+        <module>hf-share-util-aaa-server</module>
+    </modules>
 
     <distributionManagement>
         <site>
             <id>website</id>
-            <url>scp://saaa.com/www/website</url>
+            <url>scp://webhost.company.com/www/website</url>
         </site>
     </distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-        <scala.version>2.12.3</scala.version>
-        <spark.version>2.3.1</spark.version>
-        <hadoop.version>2.9.1</hadoop.version>
-        <hbase.version>1.2.6</hbase.version>
-        <hive.versioon>2.3.1</hive.versioon>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <log4j.version>1.2.12</log4j.version>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>${log4j.version}</version>
-        </dependency>
-    </dependencies>
 
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
