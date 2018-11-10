@@ -12,13 +12,13 @@
     <groupId>com.jianbing.share.util</groupId>
     <artifactId>hf-share-utils</artifactId>
     <packaging>pom</packaging>
-
-    <name>Maven</name>
+    <name>hf-share-utils</name>
     <!-- FIXME change it to the project's website -->
     <url>http://maven.apache.org/</url>
     <inceptionYear>2001</inceptionYear>
     <modules>
         <module>hf-share-util-spiders</module>
+        <module>hf-share-util-imports</module>
     </modules>
 
     <distributionManagement>

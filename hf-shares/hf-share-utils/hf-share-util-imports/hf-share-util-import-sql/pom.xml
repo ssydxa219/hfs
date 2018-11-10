@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>hfs</artifactId>
-        <groupId>com.jianbing</groupId>
+        <artifactId>hf-share-util-imports</artifactId>
+        <groupId>com.jianbing.share.util.imports</groupId>
         <version>1.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jianbing.bins</groupId>
-    <artifactId>hf-bins</artifactId>
-    <packaging>pom</packaging>
-    <name>hf-bins</name>
+    <groupId>com.jianbing.share.util.imports.sql</groupId>
+    <artifactId>hf-share-util-import-sql</artifactId>
+
+    <name>hf-share-util-import-sql</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>

@@ -9,7 +9,7 @@
     <groupId>com.jianbing.shares</groupId>
     <artifactId>hf-shares</artifactId>
     <packaging>pom</packaging>
-    <name>Maven Quick Start Archetype</name>
+    <name>hf-shares</name>
     <url>http://maven.apache.org</url>
     <modules>
         <module>hf-share-utils</module>
