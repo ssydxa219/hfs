@@ -9,7 +9,6 @@ public class App {
        /* ScalaApp h;
         h = new ScalaApp();
         h.sayHello("scala");*/
-
     }
 
 }
