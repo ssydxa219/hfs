@@ -11,6 +11,9 @@
     <packaging>pom</packaging>
     <name>hf-share-util-spiders</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>hf-share-util-spider-persons</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
